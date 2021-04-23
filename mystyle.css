@@ -1,0 +1,164 @@
+.navbar
+{
+  top: 0;
+  position: fixed;
+  background-color: rgb(104, 104, 104);
+  width: 100%;
+}
+
+.content {
+  min-height: 100vh;
+}
+
+.content-inside {
+  padding: 20px;
+  padding-bottom: 50px;
+}
+
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(104, 104, 104);
+  color: white;
+  text-align: center;
+  line-height: 90px;
+  margin-top: -50px;
+}
+
+footer {
+  width: 100%;
+  background: #42A5F5;
+  color: white;
+  line-height: 50px;
+  padding: 0 20px;
+  clear: both;
+  position: relative;
+  margin-top: -200px;
+}
+
+.text
+{
+  text-align: center;
+}
+#headTitleDiv
+{
+  top: 0;
+  position: relative;
+  background-color: rgb(104, 104, 104);
+}
+
+#titleText
+{
+  position:absolute; top:5%; right:22%;
+  font-size: 15vh;
+}
+
+#aboutText
+{
+  font-size: 24px;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #666;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-shadow: 0.5px 0.5px #000000;
+}
+
+/* Change the link color to orange on hover */
+li a:hover {
+  background-color: rgb(255, 153, 0);
+}
+
+.resourcePageTitle
+{
+  background-color: rgb(187, 187, 187);
+  color: white;
+  text-align: center;
+  font-size: 10vh;
+  text-shadow: 2px 2px #000000;
+}
+
+#pnclogo
+{
+  background-color: #000000;
+  padding: 7px;
+  height: auto;
+  width: auto;
+  margin: left;
+}
+
+#pnclogo:hover
+{
+  background-color: rgb(255, 153, 0);
+}
+
+.image-responsive
+{
+  height: auto;
+  width: auto;
+  max-width: 104px;
+  max-height: 30px;
+}
+
+body {
+  padding-top: 80px;
+  height: 100%;
+  min-height: 100%;
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  background-color: rgb(187, 187, 187);
+  color: white;
+  text-shadow: 1px 1px #000000;
+}
+
+p {
+	font-size: 180%;
+	line-height:2;
+	margin: 20px 0 0 0;
+}
+
+h1 {
+  margin: 0 0 20px 0;
+}
+
+.games-main
+{
+  padding-top: 80px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+.scratchGameDiv
+{
+  text-align: center;
+  padding: 8px;
+  display: box;
+  zoom:calc(100%*1.25);
+}
+
+.aLinks
+{
+  background-color: rgb(187, 187, 187);
+  color: white;
+  text-shadow: 2px 2px #000000;
+}
